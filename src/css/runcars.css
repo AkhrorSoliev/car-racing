@@ -1,0 +1,75 @@
+.car {
+    animation-play-state: paused;
+}
+
+
+@keyframes runcar {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(1195px);
+    }
+}
+
+
+@media screen and (max-width: 1400px) {
+
+    @keyframes runcar {
+        0% {
+            transform: translateX(0);
+        }
+    
+        100% {
+            transform: translateX(1014px);
+        }
+    }
+}
+
+@media screen and (max-width: 1194px) {
+
+    @keyframes runcar {
+        0% {
+            transform: translateX(0);
+        }
+    
+        100% {
+            transform: translateX(834px);
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    @keyframes runcar {
+        0% {
+            transform: translateX(0);
+        }
+    
+        100% {
+            transform: translateX(594px);
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    @keyframes runcar {
+        0% {
+            transform: translateX(0);
+        }
+    
+        100% {
+            transform: translateX(414px);
+        }
+    }
+}
+
+
+/* 
+
+t * v = S
+
+
+*/
